@@ -14,9 +14,9 @@ import android.view.View
  */
 class Bubbles : View {
 
-    private var _exampleString: String? = null // TODO: use a default from R.string...
-    private var _exampleColor: Int = Color.RED // TODO: use a default from R.color...
-    private var _exampleDimension: Float = 0f // TODO: use a default from R.dimen...
+    private var _exampleString: String? = null
+    private var _exampleColor: Int = Color.RED
+    private var _exampleDimension: Float = 0f
 
     private lateinit var textPaint: TextPaint
     private var textWidth: Float = 0f
